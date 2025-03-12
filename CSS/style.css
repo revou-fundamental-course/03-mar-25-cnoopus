@@ -1,1 +1,56 @@
 /*ini file css*/
+
+.main-header {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+nav {
+    display: flex;
+}
+
+nav > a {
+    padding: 10px;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+
+.banner-img {
+    border: 1px solid;
+    height: 400px;
+}
+
+.my-profile-content {
+    border: 1px solid;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.achievement {
+    border: 1px solid;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+}
+
+.message-me {
+    border: 1px solid;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+}
