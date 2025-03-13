@@ -75,7 +75,24 @@
             </header>
 
             <!-- Message Me Content -->
-             <div class="message-me"></div>
+             <div class="message-me">
+                <form action="">
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input" name="name" placeholder="Your Name" required>
+                    <br/>
+                    <label for="birthdate-input">Birth date:</label>
+                    <input type="date" id="birthdate-input" name="birthdate" placeholder="date" required>
+                    <br/>
+                    <label for="gender-input">Gender:</label>
+                    <input type="radio" id="1gender-input" name="gender" value="Woman">
+                    <label for="1gender-input">Woman</label>
+                    <input type="radio" id="gender-input" name="gender" value="Man">
+                    <label for="gender-input">Man</label>
+                    <br/>
+                    
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </form>
+             </div>
           </section>
 
 
@@ -83,8 +100,12 @@
     
     <!--Main Footer-->
     <footer>
-
+        <p>&copy;2025 cnoopus</p>
     </footer>
+
+    <!-- Java Script -->
+    <script src="js\script.js"></script>
+
 </body>
 
 </html>
