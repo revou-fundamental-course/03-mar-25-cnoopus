@@ -13,14 +13,33 @@ function validateForm() {
         //Write value to the page
     }
 
-    const birthdateInput = document.getElementById('birthdate-input');
-    console.log(birthdateInput.value);
+    const dateInput = document.getElementById('date-input');
+    console.log(dateInput.value);
 
-    if(birthdateInput.value == '') {
-        alert('Date must be choosed');
+    if(dateInput.value == '') {
+        alert('Date must be filled out');
 
     } else {
         //Write value to the page
     }
 
+    const emailInput = document.getElementById('email-input');
+    console.log(emailInput.value);
+
+    if(emailInput.value == '') {
+        alert('Email must be filled out');
+
+    } else {
+        //Write value to the page
+    }
+
+    const messageInput = document.getElementById('message-input');
+    console.log(messageInput.value);
+
+    if(messageInput.value == '') {
+        alert('Message must be filled out');
+
+    } else {
+        //Write value to the page
+    }
 }
